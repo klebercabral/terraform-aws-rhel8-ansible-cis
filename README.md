@@ -1,1 +1,1 @@
-# two-ec2-canonical
+# rhel-8-cis
