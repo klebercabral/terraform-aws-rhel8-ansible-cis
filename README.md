@@ -1,0 +1,1 @@
+# terraform-aws-rhel8-ansible-cis
