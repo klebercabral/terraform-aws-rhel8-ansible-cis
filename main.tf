@@ -69,7 +69,7 @@ resource "aws_security_group" "firewall" {
 
 }
 
-data "aws_ami" "ubuntu-bionic" {
+data "aws_ami" "rhel-8" {
 
   most_recent = true
 
@@ -89,7 +89,7 @@ module "ec2" {
 
   name           = var.labname
 
-  ami                    = data.aws_ami.ubuntu-bionic.id
+  ami                    = data.aws_ami.rhel-8.id
   instance_type          = var.ec2_instance_type
   key_name               = module.key_pair.key_pair_key_name
   monitoring             = true
