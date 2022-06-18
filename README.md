@@ -1,1 +1,1 @@
-# terraform-aws-rhel8-ansible-cis
+# two-ec2-canonical

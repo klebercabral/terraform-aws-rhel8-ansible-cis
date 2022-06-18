@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  vars:
+    - rhel8cis_rule_5_3_4: false
+  roles: 
+    - role: RHEL8-CIS
+      tags:
+        - level1-server
